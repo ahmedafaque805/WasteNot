@@ -1,0 +1,95 @@
+.Ads-container {
+  width: 100%;
+  padding: 10px 20px;
+  padding-left: 30px;
+  padding-bottom: 2rem;
+  padding-top: 0;
+}
+.Ads-container > h2 {
+  font-weight: bold;
+}
+.Ads-container .sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1rem;
+}
+.Ads-container .sec-1 .name-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}
+.Ads-container .sec-1 .name-nav > h3 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  margin: 0;
+  border-bottom: 2.5px solid transparent;
+  cursor: pointer;
+}
+.Ads-container .sec-1 .name-nav > h3:hover {
+  color: var(--primary);
+}
+.Ads-container .sec-1 .name-nav .active {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.Ads-container .sec-1 > input {
+  padding: 5px;
+  font-size: 14px;
+  outline: none;
+  border: 2px solid rgb(224, 224, 224);
+  color: gray;
+  padding-left: 10px;
+  border-radius: 7px;
+  width: 20%;
+  margin-bottom: 5px;
+}
+.Ads-container .sec-1 > input::placeholder {
+  color: rgb(175, 175, 175);
+}
+.Ads-container .sec-2 {
+  width: 100%;
+  margin-top: 1rem;
+  background-color: rgb(246, 246, 246);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 60vh;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+
+
+@media (max-width: 950px) {
+  .Ads-container .sec-1 .name-nav {
+    width: 38%;
+  }
+  .Ads-container .sec-2 {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 650px) {
+  .Ads-container {
+    padding-left: 0px;
+  }
+  .Ads-container .sec-1 .name-nav {
+    width: 52%;
+  }
+  .Ads-container .sec-1 .name-nav > h3 {
+    font-size: 12px;
+  }
+  .Ads-container .sec-1 > input {
+    padding: 5px;
+    font-size: 12px;
+    width: 40%;
+    margin-bottom: 5px;
+  }
+  .Ads-container .sec-2 {
+    background-color: transparent;
+    justify-content: center;
+  }
+}

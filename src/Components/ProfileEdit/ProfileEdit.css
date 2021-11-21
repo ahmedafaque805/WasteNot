@@ -1,0 +1,431 @@
+.ProfileEdit-container {
+  width: 100%;
+  padding: 10px 20px;
+  padding-left: 30px;
+  padding-top: 0;
+}
+.ProfileEdit-container > h2 {
+  font-weight: bold;
+}
+.ProfileEdit-container > h3 {
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary);
+  width: 105px;
+  color: var(--primary);
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+
+/* Section 1 */
+
+.ProfileEdit-container .sec-1 {
+  display: flex;
+  align-items: center;
+  width: 97%;
+  background-color: white;
+  padding: 15px;
+  padding-left: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0.1px 0.4px 2.5px -46px rgba(0, 0, 0, 0.004),
+    0.6px 2.4px 5.8px -46px rgba(0, 0, 0, 0.007),
+    1.7px 7.1px 10.6px -46px rgba(0, 0, 0, 0.012),
+    4px 16.6px 18.3px -46px rgba(0, 0, 0, 0.017),
+    9px 37.3px 33.6px -46px rgba(0, 0, 0, 0.026),
+    24px 100px 80px -46px rgba(0, 0, 0, 0.05);
+  margin-top: 1.5rem;
+}
+.ProfileEdit-container .sec-1 .info-div {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.ProfileEdit-container .sec-1 .info-div > img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  background-color: #d4d4d4;
+}
+.ProfileEdit-container .sec-1 .info-div .details {
+  margin-left: 10px;
+}
+.ProfileEdit-container .sec-1 .info-div .details > h4 {
+  margin: 0;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: gray;
+}
+.ProfileEdit-container .sec-1 .info-div .details > div {
+  display: flex;
+}
+.ProfileEdit-container .sec-1 .info-div .details > div > h5 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid rgb(224, 224, 224);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: gray;
+}
+.ProfileEdit-container .sec-1 .info-div .details > div > h5 > span {
+  margin-left: 5px;
+  color: var(--primary);
+}
+.ProfileEdit-container .sec-1 .Btn-div {
+  width: 50%;
+}
+.ProfileEdit-container .sec-1 .Btn-div .Upload-heading {
+  background-color: var(--primary);
+  color: white;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40%;
+  float: right;
+  text-align: center;
+  margin-right: 1rem;
+}
+.ProfileEdit-container .sec-1 .Btn-div .Upload-heading:hover {
+  background-color: var(--primaryHover);
+}
+.ProfileEdit-container .sec-1 .Btn-div .Upload-heading > i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+/* Section 2 */
+
+.ProfileEdit-container .sec-2 {
+  width: 97%;
+  background-color: white;
+  padding: 15px;
+  padding-left: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0.1px 0.4px 2.5px -46px rgba(0, 0, 0, 0.004),
+    0.6px 2.4px 5.8px -46px rgba(0, 0, 0, 0.007),
+    1.7px 7.1px 10.6px -46px rgba(0, 0, 0, 0.012),
+    4px 16.6px 18.3px -46px rgba(0, 0, 0, 0.017),
+    9px 37.3px 33.6px -46px rgba(0, 0, 0, 0.026),
+    24px 100px 80px -46px rgba(0, 0, 0, 0.05);
+  margin-top: 1.5rem;
+  padding-bottom: 5rem;
+  margin-bottom: 1rem;
+}
+.ProfileEdit-container .sec-2 > h3 {
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 20px;
+}
+.ProfileEdit-container .sec-2 .details-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-right: 3rem;
+}
+.ProfileEdit-container .sec-2 .details-inputs .inputs-div {
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.ProfileEdit-container .sec-2 .details-inputs .inputs-div > h4 {
+  width: 30%;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(114, 114, 114);
+  margin: 0;
+  padding-left: 15px;
+}
+.ProfileEdit-container .sec-2 .details-inputs .inputs-div > h4 > span {
+  color: var(--primary);
+}
+.ProfileEdit-container .sec-2 .details-inputs .inputs-div > input {
+  width: 70%;
+  padding: 3px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid rgb(206, 206, 206);
+  outline: none;
+  color: gray;
+}
+.ProfileEdit-container .sec-2 > button {
+  width: 15%;
+  padding: 2px 10px;
+  float: right;
+  margin-right: 4%;
+  margin-top: 1rem;
+  background-color: var(--primary);
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+}
+.ProfileEdit-container .sec-2 > button:hover {
+  background-color: var(--primaryHover);
+}
+
+/* Section 3 */
+
+.ProfileEdit-container .sec-3 {
+  width: 97%;
+  background-color: white;
+  padding: 15px;
+  padding-left: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0.1px 0.4px 2.5px -46px rgba(0, 0, 0, 0.004),
+    0.6px 2.4px 5.8px -46px rgba(0, 0, 0, 0.007),
+    1.7px 7.1px 10.6px -46px rgba(0, 0, 0, 0.012),
+    4px 16.6px 18.3px -46px rgba(0, 0, 0, 0.017),
+    9px 37.3px 33.6px -46px rgba(0, 0, 0, 0.026),
+    24px 100px 80px -46px rgba(0, 0, 0, 0.05);
+  margin-top: 1.5rem;
+  padding-bottom: 5rem;
+  margin-bottom: 5rem;
+}
+.ProfileEdit-container .sec-3 > h3 {
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 20px;
+  width: 100%;
+}
+.ProfileEdit-container .sec-3 .details-inputs {
+  display: flex;
+  width: 100%;
+  padding-right: 3rem;
+  flex-direction: column;
+}
+.ProfileEdit-container .sec-3 .details-inputs .inputs-div {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 50%;
+}
+.ProfileEdit-container .sec-3 .details-inputs .inputs-div > h4 {
+  width: 30%;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(114, 114, 114);
+  margin: 0;
+  padding-left: 15px;
+}
+.ProfileEdit-container .sec-3 .details-inputs .inputs-div > h4 > span {
+  color: var(--primary);
+}
+.ProfileEdit-container .sec-3 .details-inputs .inputs-div > input {
+  width: 70%;
+  padding: 3px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid rgb(206, 206, 206);
+  outline: none;
+  color: gray;
+}
+.ProfileEdit-container .sec-3 > button {
+  width: 15%;
+  padding: 2px 10px;
+  float: right;
+  margin-right: 4%;
+  margin-top: 1rem;
+  background-color: var(--primary);
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+}
+.ProfileEdit-container .sec-3 > button:hover {
+  background-color: var(--primaryHover);
+}
+
+@media (max-width: 900px) {
+  .ProfileEdit-container .sec-1 .info-div {
+    display: flex;
+    width: 70%;
+    align-items: center;
+  }
+  .ProfileEdit-container .sec-1 .Btn-div {
+    width: 30%;
+  }
+  .ProfileEdit-container .sec-1 .Btn-div .Upload-heading {
+    font-size: 16px;
+    width: 90%;
+  }
+  .ProfileEdit-container .sec-1 .Btn-div .Upload-heading > i {
+    font-size: 16px;
+  }
+  .ProfileEdit-container .sec-2 .details-inputs {
+    padding-right: 0;
+  }
+  .ProfileEdit-container .sec-2 .details-inputs .inputs-div {
+    width: 48%;
+  }
+  .ProfileEdit-container .sec-2 .details-inputs .inputs-div > h4 {
+    width: 40%;
+  }
+  .ProfileEdit-container .sec-2 .details-inputs .inputs-div > input {
+    width: 60%;
+  }
+  .ProfileEdit-container .sec-2 > button{
+    margin-right: 0;
+    width: 25%;
+  }
+  .ProfileEdit-container .sec-3 {
+    margin-bottom: 2rem;
+  }
+  .ProfileEdit-container .sec-3 .details-inputs .inputs-div {
+    width: 70%;
+  }
+  .ProfileEdit-container .sec-3 > button{
+    margin-right: 0;
+    width: 25%;
+  }
+}
+@media (max-width: 600px) {
+  .ProfileEdit-container {
+    width: 100%;
+    padding: 10px 20px;
+    padding-left: 0;
+  }
+  .ProfileEdit-container > h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .ProfileEdit-container .sec-1 {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  .ProfileEdit-container .sec-1 .info-div {
+    width: 100%;
+    flex-direction: column;
+  }
+  .ProfileEdit-container .sec-1 .info-div > img {
+    width: 75px;
+    height: 75px;
+  }
+  .ProfileEdit-container .sec-1 .info-div .details {
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .ProfileEdit-container .sec-1 .info-div .details > h4 {
+    font-size: 16px;
+  }
+  .ProfileEdit-container .sec-1 .Btn-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ProfileEdit-container .sec-1 .Btn-div .Upload-heading {
+    width: 100%;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .ProfileEdit-container .sec-1 .Btn-div .Upload-heading > i {
+    font-size: 14px;
+  }
+
+  /* Section 2 */
+
+  .ProfileEdit-container .sec-2 {
+    width: 100%;
+    padding: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .ProfileEdit-container .sec-2 > h3 {
+    font-size: 18px;
+    width: 90%;
+    margin-top: 10px;
+  }
+  .ProfileEdit-container .sec-2 .details-inputs {
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 0;
+  }
+  .ProfileEdit-container .sec-2 .details-inputs .inputs-div {
+    width: 100%;
+    margin: 12px 0;
+  }
+  .ProfileEdit-container .sec-2 .details-inputs .inputs-div > h4 {
+    width: 35%;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .ProfileEdit-container .sec-2 .details-inputs .inputs-div > input {
+    width: 55%;
+    font-size: 14px;
+  }
+  .ProfileEdit-container .sec-2 > button {
+    width: 40%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
+  }
+  /* Section 3 */
+
+  .ProfileEdit-container .sec-3 {
+    width: 100%;
+    padding: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .ProfileEdit-container .sec-3 > h3 {
+    font-size: 18px;
+    width: 90%;
+    margin-top: 10px;
+  }
+  .ProfileEdit-container .sec-3 .details-inputs {
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 0;
+  }
+  .ProfileEdit-container .sec-3 .details-inputs .inputs-div {
+    width: 100%;
+    margin: 12px 0;
+  }
+  .ProfileEdit-container .sec-3 .details-inputs .inputs-div > h4 {
+    width: 35%;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .ProfileEdit-container .sec-3 .details-inputs .inputs-div > input {
+    width: 60%;
+    font-size: 14px;
+  }
+  .ProfileEdit-container .sec-3 > button {
+    width: 40%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    font-size: 14px;
+  }
+}

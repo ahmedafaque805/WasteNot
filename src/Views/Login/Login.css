@@ -1,0 +1,109 @@
+.Login-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #ebebeb;
+  height: 100vh;
+}
+.Login-container .left-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 55%;
+    margin-right: 6rem;
+    background-color: white;
+    height: 100vh;
+}
+.Login-container .left-box > img{
+    width: 70%;
+}
+.Login-container .left-box > p{
+    text-align: center;
+    width: 60%;
+    margin-top: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    color: #8b8b8b;
+}
+.Login-container .right-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem 0;
+  padding-top: 3rem;
+  width: 33%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Login-container .right-box > h2 {
+  color: rgb(143, 143, 143);
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+}
+.Login-container .right-box > input {
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  width: 80%;
+  margin-top: 1rem;
+  border: 2px solid rgb(221, 221, 221);
+  border-radius: 5px;
+  outline: none;
+  color: gray;
+  font-weight: bold;
+}
+.Login-container .right-box > input::placeholder{
+    color: rgb(167, 167, 167);
+}
+.Login-container .right-box > button {
+  padding: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 80%;
+  border: 2px solid var(--primary);
+  background: rgb(46, 231, 153);
+  background: linear-gradient(
+    176deg,
+    rgba(46, 231, 153, 1) 0%,
+    rgba(103, 191, 154, 1) 100%
+  );
+  color: white;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.Login-container .right-box > button:hover {
+  background: transparent;
+  color: var(--primary);
+}
+@media (max-width: 900px){
+    .Login-container .left-box{
+        width: 50%;
+        margin-right: 3rem;
+    }
+    .Login-container .left-box > img{
+        width: 80%;
+    }
+    .Login-container .left-box > p{
+        width: 80%;
+    }
+    .Login-container .right-box {
+        width: 40%;
+      }
+}
+@media (max-width: 600px){
+    .Login-container .left-box{
+        display: none;
+    }
+    .Login-container .right-box {
+        width: 90%;
+        height: 60vh;
+    }
+    .Login-container {
+        justify-content: center;
+      }
+}

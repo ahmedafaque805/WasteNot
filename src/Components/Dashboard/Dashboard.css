@@ -1,0 +1,150 @@
+.Dashboard-div {
+  width: 100%;
+  padding: 10px 20px;
+  padding-left: 30px;
+  padding-top: 0;
+}
+.Dashboard-div > h2 {
+  font-weight: bold;
+}
+.Dashboard-div > h3 {
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary);
+  width: 75px;
+  color: var(--primary);
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+.Dashboard-div .Sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 97%;
+}
+.Dashboard-div .Sec-1 .Card {
+  background-color: white;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0;
+  border-radius: 7px;
+  box-shadow: 0.1px 0.4px 2.5px -46px rgba(0, 0, 0, 0.004),
+    0.6px 2.4px 5.8px -46px rgba(0, 0, 0, 0.007),
+    1.7px 7.1px 10.6px -46px rgba(0, 0, 0, 0.012),
+    4px 16.6px 18.3px -46px rgba(0, 0, 0, 0.017),
+    9px 37.3px 33.6px -46px rgba(0, 0, 0, 0.026),
+    24px 100px 80px -46px rgba(0, 0, 0, 0.05);
+}
+.Dashboard-div .Sec-1 .Card .icon {
+  font-size: 40px;
+  color: var(--primary);
+}
+.Dashboard-div .Sec-1 .Card > h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.Dashboard-div .Sec-1 .Card > h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+.Dashboard-div .Sec-2 {
+  width: 97%;
+  background-color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 0;
+  border-radius: 7px;
+  box-shadow: 0.1px 0.4px 2.5px -46px rgba(0, 0, 0, 0.004),
+    0.6px 2.4px 5.8px -46px rgba(0, 0, 0, 0.007),
+    1.7px 7.1px 10.6px -46px rgba(0, 0, 0, 0.012),
+    4px 16.6px 18.3px -46px rgba(0, 0, 0, 0.017),
+    9px 37.3px 33.6px -46px rgba(0, 0, 0, 0.026),
+    24px 100px 80px -46px rgba(0, 0, 0, 0.05);
+}
+.Dashboard-div .Sec-2 > h3 {
+  font-weight: bold;
+  padding-left: 1rem;
+  font-size: 20px;
+}
+.Dashboard-div .Sec-2 > h4 {
+  font-weight: bold;
+  margin-left: 1rem;
+  font-size: 18px;
+  color: rgb(100, 100, 100);
+  border-bottom: 2px solid rgb(241, 241, 241);
+  width: 97%;
+  padding-bottom: 7px;
+}
+.Dashboard-div .Sec-2 .Tab-div {
+  display: flex;
+  padding-left: 1rem;
+}
+.Dashboard-div .Sec-2 .Tab-div > h3 {
+  padding: 2px 10px;
+  margin-right: 0.5rem;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(100, 100, 100);
+  cursor: pointer;
+}
+.Dashboard-div .Sec-2 .Tab-div .active {
+  padding: 2px 10px;
+  font-weight: bold;
+  background-color: var(--primary);
+  color: rgb(78, 78, 78);
+  color: white;
+  border-radius: 5px;
+}
+
+.Dashboard-div .Sec-2 .Revenue-Chart-div .inner-div {
+  width: 100%;
+  padding: 1rem 0;
+}
+.Dashboard-div .Sec-2 .Revenue-Chart-div .inner-div .ct-line,
+.Dashboard-div .Sec-2 .Revenue-Chart-div .inner-div .ct-bar {
+  stroke: var(--primary) !important;
+}
+.Dashboard-div .Sec-2 .Revenue-Chart-div .inner-div .ct-point {
+  stroke: var(--primary) !important;
+}
+
+@media (max-width: 600px) {
+  .Dashboard-div {
+    width: 100%;
+    padding: 0;
+    padding-left: 0;
+    padding-top: 10px;
+  }
+  .Dashboard-div .Sec-1 {
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0;
+    width: 96%;
+  }
+  .Dashboard-div .Sec-1 .Card {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .Dashboard-div .Sec-2 .Revenue-Chart-div  {
+    overflow: auto;
+    padding-right: 10px;
+  }
+  .Dashboard-div .Sec-2 .Revenue-Chart-div .inner-div {
+    width: 1200px;
+    padding: 1rem 0;
+  }
+  .Dashboard-div .Sec-2 > h4 {
+    font-size: 14px;
+    width: 92%;
+  }
+  .Dashboard-div .Sec-2 > h3 {
+    font-size: 16px;
+  }
+  .Dashboard-div .Sec-2 .Tab-div > h3 {
+    font-size: 12px;
+  }
+}

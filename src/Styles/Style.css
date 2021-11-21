@@ -1,0 +1,26 @@
+/* Third Party CSS */
+@import 'antd/dist/antd.css';
+/* @import 'react-multi-carousel/lib/styles.css'; */
+
+/* Theme CSS */
+@import './_variable.css';
+/* @import './_general.css'; */
+
+/* Layout CSS */
+@import '../Layout/Layout.css';
+
+/* Component CSS */
+@import '../Components/ProfileEdit/ProfileEdit.css';
+@import '../Components/Dashboard/Dashboard.css';
+@import '../Components/Notification/Notification.css';
+@import '../Components/Wallet/Wallet.css';
+@import '../Components/Transaction/Transaction.css';
+@import '../Components/WithDraw/WithDraw.css';
+@import '../Components/MyAds/MyAds.css';
+@import '../Components/Card/Card.css';
+@import '../Components/OrderHistory/OrderHistory.css';
+
+/* Page CSS */
+@import '../Views/ProductEdit/ProductEdit.css';
+@import '../Views/Login/Login.css';
+@import '../Views/Verification/Verification.css';

@@ -1,0 +1,150 @@
+.RW-container {
+  padding: 10px;
+  padding-left: 1.5rem;
+  min-height: 68vh;
+}
+.RW-container > h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.RW-container .Submit-div {
+  display: flex;
+  align-items: center;
+}
+.RW-container .Submit-div .primary2-btn {
+  width: 100px;
+  font-weight: bold;
+  margin-top: 3rem;
+  padding: 1px;
+  margin-left: 1rem;
+  background-color: var(--primary);
+  border: 0;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.RW-container .Submit-div .primary2-btn:hover{
+    background-color: var(--primaryHover);
+}
+.RW-container .Input-div {
+  margin-top: 1rem;
+}
+.RW-container .Input-div > h3 {
+  font-weight: bold;
+  font-size: 16px;
+  color: gray;
+}
+.RW-container .Input-div > input {
+  font-size: 18px;
+  padding: 4px;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 6px;
+  border: 2px solid rgb(204, 204, 204);
+  font-weight: 900;
+  color: gray;
+  width: 260px;
+}
+.RW-container .Input-div > input::placeholder {
+  color: var(--primary);
+}
+.RW-container .Input-div > input::-webkit-inner-spin-button {
+  display: none;
+}
+.RW-container > h3 {
+  font-weight: bold;
+  font-size: 16px;
+  color: gray;
+  margin-top: 2rem;
+}
+.RW-container .Btn-div {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 20px;
+  color: gray;
+  width: 130px;
+  border-radius: 7px;
+  justify-content: space-between;
+}
+.RW-container .Btn-div .Btn {
+  display: flex;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+}
+.RW-container .Btn-div .Btn:hover {
+  background-color: rgb(243, 243, 243);
+}
+.RW-container .Btn-div .paypal-btn {
+  margin-right: 1rem;
+}
+.RW-container .Btn-div .paypal-btn > img {
+  height: 25px;
+}
+.RW-container .Btn-div .SSL-btn > img {
+  height: 25px;
+}
+.RW-container .Btn-div .SSL-btn {
+  margin-left: 1rem;
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 570px) {
+  .RW-container {
+    padding-left: 0;
+    padding: 10px;
+    min-height: unset;
+  }
+  .RW-container > h2 {
+    margin-bottom: 0;
+  }
+  .RW-container .Input-div{
+      width: 100%;
+  }
+  .RW-container .Input-div > input {
+    font-size: 16px;
+    width: 100%;
+  }
+  .RW-container .Btn-div {
+    font-size: 18px;
+  }
+  .RW-container .primary2-btn {
+    width: 240px;
+    font-size: 18px;
+  }
+  .RW-container .Btn-div .paypal-btn > img {
+    height: 20px;
+  }
+  .RW-container .Btn-div .SSL-btn > img {
+    height: 20px;
+  }
+  .RW-container > h3 {
+    margin-top: 1rem;
+  }
+  .RW-container .Submit-div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .RW-container .Submit-div .primary2-btn {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 1px;
+    margin-left: 0;
+  }
+}
+@media (max-width: 370px) {
+  .RW-container .Submit-div .primary2-btn {
+    width: 100%;
+  }
+}

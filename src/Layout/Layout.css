@@ -1,0 +1,166 @@
+.Layout-container {
+  width: 100%;
+  position: relative;
+  background-color: #ebebeb;
+  height: 100vh;
+  overflow: auto;
+}
+/* width */
+.Layout-container::-webkit-scrollbar {
+  width: 15px !important;
+}
+
+/* Track */
+.Layout-container::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+
+/* Handle */
+.Layout-container::-webkit-scrollbar-thumb {
+  /* background: var(--primary); */
+  border-radius: 50px;
+  background: rgb(46, 231, 153);
+  background: linear-gradient(
+    176deg,
+    rgba(46, 231, 153, 1) 0%,
+    rgba(103, 191, 154, 1) 100%
+  );
+}
+
+/* Handle on hover */
+.Layout-container::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+.Layout-container .Nav-conatiner {
+  height: 70px;
+  width: 100%;
+  /* background-color: rgb(253, 253, 253); */
+  /* box-shadow: rgba(100, 100, 111, 0.2) 2px 0px 10px 0px; */
+  position: relative;
+}
+.Layout-container .Nav-conatiner .Profile-div {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 60px;
+  top: 15px;
+}
+.Layout-container .Nav-conatiner .Profile-div > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.Layout-container .Nav-conatiner .Profile-div .info-div > h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(173, 173, 173);
+}
+.Layout-container .Nav-conatiner .Profile-div .info-div > h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: -3px;
+  /* color: var(--primary); */
+  cursor: pointer;
+}
+.Layout-container .Nav-conatiner .Profile-div .info-div > h4:hover{
+  color: rgb(77, 206, 152);
+}
+.Layout-container .SideBar {
+  width: 60px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 60vh;
+  top: 90px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  position: fixed;
+  box-shadow: rgba(100, 100, 111, 0.2) 2px 0px 10px 0px;
+}
+.Layout-container .SideBar .Option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+.Layout-container .SideBar .Option .icon {
+  font-size: 30px;
+  color: var(--primary);
+}
+.Layout-container .SideBar .Option > h4 {
+  position: absolute;
+  background-color: white;
+  font-size: 12px;
+  padding: 5px 0;
+  right: -120px;
+  top: -3px;
+  border-radius: 3px;
+  display: none;
+  width: 110px;
+  text-align: center;
+  font-family: monospace;
+  z-index: 100;
+}
+.Layout-container .SideBar .Option:hover > h4 {
+  display: block;
+  z-index: 50;
+}
+.Layout-container .SideBar .Option .icon:hover {
+  color: var(--primaryHover);
+}
+.Layout-container .Content-div {
+  width: 100%;
+  padding-left: 60px;
+  padding-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .Layout-container .Nav-conatiner .Profile-div {
+    width: unset;
+    right: 20px;
+    top: 15px;
+  }
+  .Layout-container .Nav-conatiner .Profile-div > img {
+    width: 50px;
+    height: 50px;
+  }
+  .Layout-container .Nav-conatiner .Profile-div .info-div > h3 {
+    font-size: 14px;
+  }
+  .Layout-container .Nav-conatiner .Profile-div .info-div > h4 {
+    font-size: 12px;
+  }
+  .Layout-container .SideBar {
+    width: 40px;
+    min-height: 40vh;
+    margin-top: 0;
+    top: 80px;
+  }
+  .Layout-container .SideBar .Option .icon {
+    font-size: 23px;
+  }
+  .Layout-container .Content-div {
+    padding-top: 0;
+  }
+  .Layout-container .SideBar .Option:hover > h4 {
+    display: none;
+  }
+  .Layout-container::-webkit-scrollbar {
+    width: 5px !important;
+  }
+}
+@media (max-width: 370px) {
+  .Layout-container .SideBar .Option .icon {
+    font-size: 16px;
+  }
+}

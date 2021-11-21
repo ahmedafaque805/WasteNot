@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e304ad42.chunk.css",
+    "main.js": "/static/js/main.76addb44.chunk.js",
+    "main.js.map": "/static/js/main.76addb44.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8ab5af26.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8ab5af26.js.map",
+    "static/css/2.a95be28f.chunk.css": "/static/css/2.a95be28f.chunk.css",
+    "static/js/2.b6497354.chunk.js": "/static/js/2.b6497354.chunk.js",
+    "static/js/2.b6497354.chunk.js.map": "/static/js/2.b6497354.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.a95be28f.chunk.css.map": "/static/css/2.a95be28f.chunk.css.map",
+    "static/css/main.e304ad42.chunk.css.map": "/static/css/main.e304ad42.chunk.css.map",
+    "static/js/2.b6497354.chunk.js.LICENSE.txt": "/static/js/2.b6497354.chunk.js.LICENSE.txt",
+    "static/media/Stripe.89ff1f2e.png": "/static/media/Stripe.89ff1f2e.png",
+    "static/media/admin.5004fd6a.png": "/static/media/admin.5004fd6a.png",
+    "static/media/illutration.e980ebbc.jpg": "/static/media/illutration.e980ebbc.jpg",
+    "static/media/messages.c120bf96.png": "/static/media/messages.c120bf96.png",
+    "static/media/notebook.e311f079.png": "/static/media/notebook.e311f079.png",
+    "static/media/verification.cc9198ea.png": "/static/media/verification.cc9198ea.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ab5af26.js",
+    "static/css/2.a95be28f.chunk.css",
+    "static/js/2.b6497354.chunk.js",
+    "static/css/main.e304ad42.chunk.css",
+    "static/js/main.76addb44.chunk.js"
+  ]
+}

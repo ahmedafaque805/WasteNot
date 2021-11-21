@@ -1,0 +1,169 @@
+.Notification-container {
+  width: 100%;
+  padding: 10px 20px;
+  padding-left: 30px;
+  padding-bottom: 2rem;
+  padding-top: 0;
+}
+.Notification-container > h2 {
+  font-weight: bold;
+}
+.Notification-container .inner-box {
+  width: 98%;
+  border-radius: 8px;
+  padding-bottom: 10px;
+}
+.Notification-container .inner-box .list-div {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: auto;
+}
+/* width */
+.Notification-container .inner-box .list-div::-webkit-scrollbar {
+  width: 7px !important;
+}
+
+/* Track */
+.Notification-container .inner-box .list-div::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+  border-radius: 10px;
+}
+
+/* Handle */
+.Notification-container .inner-box .list-div::-webkit-scrollbar-thumb {
+  background: rgb(216, 216, 216);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.Notification-container .inner-box .list-div::-webkit-scrollbar-thumb:hover {
+  background: #f38966;
+}
+.Notification-container .inner-box .list-div .Card {
+  width: 48.8%;
+  display: flex;
+  padding: 10px 5px;
+  padding-left: 1rem;
+  border-radius: 10px;
+  min-height: 80px;
+  max-height: 120px;
+  box-shadow: 0.1px 0.4px 2.5px -46px rgba(0, 0, 0, 0.004),
+    0.6px 2.4px 5.8px -46px rgba(0, 0, 0, 0.007),
+    1.7px 7.1px 10.6px -46px rgba(0, 0, 0, 0.012),
+    4px 16.6px 18.3px -46px rgba(0, 0, 0, 0.017),
+    9px 37.3px 33.6px -46px rgba(0, 0, 0, 0.026),
+    24px 100px 80px -46px rgba(0, 0, 0, 0.05);
+  margin-top: 1rem;
+}
+.Notification-container .inner-box .list-div .message-Card {
+  background-color: #fcf3cf;
+}
+.Notification-container .inner-box .list-div .Item-Card {
+  background-color: #d5f5e3;
+}
+.Notification-container .inner-box .list-div .Admin-Card {
+  background-color: #f6ddcc;
+}
+.Notification-container .inner-box .list-div .Card > img {
+  height: 50px;
+}
+.Notification-container .inner-box .list-div .message-Card > img {
+  height: 40px;
+  margin-top: 5px;
+}
+.Notification-container .inner-box .list-div .Admin-Card > img {
+  height: 40px;
+  margin-top: 5px;
+}
+.Notification-container .inner-box .list-div .Card .details {
+  display: flex;
+  padding-left: 10px;
+  width: 100%;
+  position: relative;
+}
+.Notification-container .inner-box .list-div .Card .details > p {
+  font-size: 16px;
+  margin: 0;
+  width: 83%;
+}
+.Notification-container .inner-box .list-div .Card .details > p > span {
+  font-weight: bolder;
+  font-size: 16px;
+}
+.Notification-container .inner-box .list-div .Item-Card .details > p > span {
+  color: #186a3b;
+}
+.Notification-container .inner-box .list-div .message-Card .details > p > span {
+  color: #b7950b;
+}
+.Notification-container .inner-box .list-div .Admin-Card .details > p > span {
+  color: rgb(149, 3, 3);
+}
+.Notification-container .inner-box .list-div .Card .details > h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: gray;
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  margin: 0;
+}
+
+@media (max-width: 890px) {
+  .Notification-container .inner-box .list-div .Card {
+    min-height: 150px;
+    max-height: 150px;
+  }
+  .Notification-container .inner-box .list-div .Card .details > p {
+    width: 95%;
+  }
+  .Notification-container .inner-box .list-div .Card .details > h6 {
+    font-size: 12px;
+    right: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Notification-container {
+    width: 100%;
+    padding: 10px;
+    padding-left: 0px;
+    padding-bottom: 2rem;
+  }
+  .Notification-container .inner-box .list-div .Card {
+    width: 100%;
+  }
+  .Notification-container .inner-box .list-div .Card > img {
+    height: 40px;
+  }
+  .Notification-container .inner-box .list-div .message-Card > img {
+    height: 30px;
+    margin-top: 5px;
+  }
+  .Notification-container .inner-box .list-div .Admin-Card > img {
+    height: 30px;
+    margin-top: 5px;
+  }
+  .Notification-container .inner-box .list-div::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media (max-width: 370px) {
+  .Notification-container .inner-box .list-div .Card .details > p {
+    font-size: 14px;
+  }
+  .Notification-container .inner-box .list-div .Card > img {
+    height: 30px;
+  }
+  .Notification-container .inner-box .list-div .message-Card > img {
+    height: 25px;
+  }
+  .Notification-container .inner-box .list-div .Admin-Card > img {
+    height: 25px;
+  }
+  .Notification-container .inner-box .list-div .Card .details > p > span {
+    font-size: 14px;
+  }
+}

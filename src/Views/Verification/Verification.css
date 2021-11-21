@@ -1,0 +1,138 @@
+.Verification-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #ebebeb;
+  height: 100vh;
+}
+.Verification-container .left-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 55%;
+  margin-right: 6rem;
+  background-color: white;
+  height: 100vh;
+}
+.Verification-container .left-box > img {
+  width: 50%;
+}
+.Verification-container .left-box > p {
+  text-align: center;
+  width: 60%;
+  margin-top: 2rem;
+  font-size: 14px;
+  font-weight: bold;
+  color: #8b8b8b;
+}
+.Verification-container .right-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem 0;
+  padding-top: 3rem;
+  width: 33%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Verification-container .right-box > h2 {
+  font-size: 25px;
+  margin: 0;
+  color: rgb(143, 143, 143);
+  font-weight: bold;
+}
+.Verification-container .right-box > input {
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+  width: 80%;
+  margin-top: 1rem;
+  border: 2px solid rgb(221, 221, 221);
+  border-radius: 5px;
+  outline: none;
+  color: gray;
+  font-weight: bold;
+}
+.Verification-container .right-box > input::placeholder {
+  color: rgb(167, 167, 167);
+}
+.Verification-container .right-box > button {
+  padding: 3px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 80%;
+  border: 2px solid var(--primary);
+  background: rgb(46, 231, 153);
+  background: linear-gradient(
+    176deg,
+    rgba(46, 231, 153, 1) 0%,
+    rgba(103, 191, 154, 1) 100%
+  );
+  color: white;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.Verification-container .right-box > button:hover {
+  background: transparent;
+  color: var(--primary);
+}
+.Verification-container .right-box > label{
+    width: 80%;
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dotted rgb(173, 173, 173);
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.Verification-container .right-box > label:hover .icon ,.Verification-container .right-box > label:hover > h4{
+    color: rgb(109, 112, 111);
+}
+.Verification-container .right-box > label .icon{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(167, 167, 167);
+}
+.Verification-container .right-box > label > h4{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+    color: rgb(167, 167, 167);
+}
+@media (max-width: 900px) {
+  .Verification-container .left-box {
+    width: 50%;
+    margin-right: 3rem;
+  }
+  .Verification-container .left-box > img {
+    width: 80%;
+  }
+  .Verification-container .left-box > p {
+    width: 80%;
+  }
+  .Verification-container .right-box {
+    width: 40%;
+  }
+  .Verification-container .right-box > h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .Verification-container .left-box {
+    display: none;
+  }
+  .Verification-container .right-box {
+    width: 90%;
+    height: 80vh;
+  }
+  .Verification-container {
+    justify-content: center;
+  }
+}

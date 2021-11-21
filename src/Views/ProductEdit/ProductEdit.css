@@ -1,0 +1,318 @@
+.PE-container {
+  width: 100%;
+  position: relative;
+  background-color: #ebebeb;
+  height: 100vh;
+  overflow: auto;
+}
+/* width */
+.PE-container::-webkit-scrollbar {
+  width: 12px !important;
+}
+
+/* Track */
+.PE-container::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+
+/* Handle */
+.PE-container::-webkit-scrollbar-thumb {
+  /* background: var(--primary); */
+  border-radius: 50px;
+  background: rgb(46, 231, 153);
+  background: linear-gradient(
+    176deg,
+    rgba(46, 231, 153, 1) 0%,
+    rgba(103, 191, 154, 1) 100%
+  );
+}
+
+/* Handle on hover */
+.PE-container::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+.PE-container .Nav {
+  position: relative;
+  background-color: #e2e2e2;
+  display: flex;
+  align-items: center;
+  box-shadow: 0.1px 0.4px 2.5px -46px rgba(0, 0, 0, 0.004),
+    0.6px 2.4px 5.8px -46px rgba(0, 0, 0, 0.007),
+    1.7px 7.1px 10.6px -46px rgba(0, 0, 0, 0.012),
+    4px 16.6px 18.3px -46px rgba(0, 0, 0, 0.017),
+    9px 37.3px 33.6px -46px rgba(0, 0, 0, 0.026),
+    24px 100px 80px -46px rgba(0, 0, 0, 0.05);
+}
+.PE-container .Nav > h2 {
+  font-size: 25px;
+  padding: 0.7rem;
+  padding-left: 2rem;
+  margin: 0;
+  font-weight: bold;
+  color: gray;
+  text-transform: capitalize;
+}
+.PE-container .Nav .icon{
+  position: absolute;
+  font-size: 25px;
+  right: 30px;
+  cursor: pointer;
+  color: gray;
+}
+.PE-container .Nav .icon:hover{
+    color: rgb(1, 185, 108) ;
+}
+.PE-container .Sec-1 .CoverImage {
+  width: 100%;
+  min-height: 400px;
+  max-height: 600px;
+  box-shadow: 0.1px 0.4px 2.5px -46px rgba(0, 0, 0, 0.004),
+  0.6px 2.4px 5.8px -46px rgba(0, 0, 0, 0.007),
+  1.7px 7.1px 10.6px -46px rgba(0, 0, 0, 0.012),
+  4px 16.6px 18.3px -46px rgba(0, 0, 0, 0.017),
+  9px 37.3px 33.6px -46px rgba(0, 0, 0, 0.026),
+  24px 100px 80px -46px rgba(0, 0, 0, 0.05);
+}
+.PE-container .Sec-2 {
+  width: 100%;
+  padding-top: 3rem;
+}
+.PE-container .Sec-2 > h2{
+  margin-left: 2rem;
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 0.1rem;
+  color: rgb(175, 175, 175);
+  border-bottom: 3px solid rgb(175, 175, 175);
+  width: 131px;
+  margin-bottom: 2rem;
+}
+.PE-container .Sec-2 .list{
+  padding: 0 1.2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.PE-container .Sec-2 .list  .item {
+  margin: 10px;
+  height: 100px;
+  cursor: pointer;
+  position: relative;
+  flex-shrink: 0;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 19px 0px;
+}
+.PE-container .Sec-3{
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.PE-container .Sec-3 > h2{
+  margin-left: 2rem;
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 0.1rem;
+  color: rgb(175, 175, 175);
+  border-bottom: 3px solid rgb(175, 175, 175);
+  width: 191px;
+  margin-bottom: 2rem;
+}
+.PE-container .Sec-3 .Double-input{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+}
+.PE-container .Sec-3 .Double-input > .input-div{
+  width: 60%;
+}
+.PE-container .Sec-3 .Double-input > .input-div2{
+  width: 30%;
+}
+.PE-container .Sec-3 .Double-input > .input-div > h4{
+  color: gray;
+  font-size: 16px;
+  font-weight: bold;
+}
+.PE-container .Sec-3 .Double-input > .input-div > input{
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid rgb(190, 190, 190);
+  background-color: transparent;
+  outline: none;
+  border-radius: 5px;
+  color: gray;
+  padding-left: 10px;
+}
+.PE-container .Sec-3 .Double-input > .input-div2 > input::-webkit-inner-spin-button{
+  display: none;
+}
+.PE-container .Sec-3 .input-div3{
+  width: 100%;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+.PE-container .Sec-3 .input-div3 > h4{
+  color: gray;
+  font-size: 16px;
+  font-weight: bold;
+}
+.PE-container .Sec-3 .input-div3 > textarea{
+  width: 97%;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid rgb(190, 190, 190);
+  background-color: transparent;
+  outline: none;
+  border-radius: 5px;
+  color: gray;
+  padding-left: 10px;
+}
+.PE-container .Sec-3 .input-div3 .Desc{
+  min-height: 170px;
+}
+
+/* width */
+.PE-container .Sec-3 .input-div3 > textarea::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+/* Track */
+.PE-container .Sec-3 .input-div3 > textarea::-webkit-scrollbar-track {
+  background: #f1f1f1 !important;
+}
+
+/* Handle */
+.PE-container .Sec-3 .input-div3 > textarea::-webkit-scrollbar-thumb {
+  /* background: var(--primary); */
+  border-radius: 50px;
+  background: rgb(46, 231, 153);
+  background: linear-gradient(
+    176deg,
+    rgba(46, 231, 153, 1) 0%,
+    rgba(103, 191, 154, 1) 100%
+  );
+}
+
+/* Handle on hover */
+.PE-container .Sec-3 .input-div3 > textarea::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+.PE-container .sec-4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.PE-container .sec-4 > button{
+  width: 95%;
+  padding:7px 10px;
+  float: right;
+  background-color: var(--primary);
+  color: white;
+  font-size: 22px;
+  font-weight: 900;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  border: 0;
+}
+.PE-container .sec-4 > button:hover {
+  background-color: var(--primaryHover);
+}
+
+@media (max-width: 900px){
+  .PE-container .Sec-3 .input-div3{
+    padding-left: 1rem;
+  }
+}
+@media (max-width: 600px){
+  .PE-container::-webkit-scrollbar {
+    width: 4px !important;
+  }
+  .PE-container .Nav > h2 {
+    font-size: 18px;
+    padding-left: 1rem;
+  }
+  .PE-container .Nav .icon{
+    font-size: 20px;
+    right: 15px;
+  }
+  .PE-container .Sec-1 .CoverImage {
+    width: 100%;
+    min-height: auto;
+    max-height: auto;
+  }
+  .PE-container .Sec-2 {
+    padding-top: 1.5rem;
+  }
+  .PE-container .Sec-2 > h2{
+    margin-left: 1rem;
+    font-size: 18px;
+    width: 91px;
+    margin-bottom: 1rem;
+  }
+  .PE-container .Sec-2 .list{
+    padding: 0 0.3rem;
+    padding-bottom: 1rem;
+  }
+  .PE-container .Sec-2 .list  .item {
+    height: 70px;
+  }
+  .PE-container .Sec-3{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+  .PE-container .Sec-3 > h2{
+    margin-left: 1rem;
+    font-size: 18px;
+    width: 133px;
+    margin-bottom: 1rem;
+  }
+  .PE-container .Sec-3 .Double-input{
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+  }
+  .PE-container .Sec-3 .Double-input > .input-div{
+    width: 95%;
+  }
+  .PE-container .Sec-3 .Double-input > .input-div2{
+    width: 95%;
+    margin-top: 14px;
+  }
+  .PE-container .Sec-3 .Double-input > .input-div > h4{
+    color: gray;
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+  .PE-container .Sec-3 .input-div3{
+    padding-left: 1rem;
+  }
+  .PE-container .Sec-3 .input-div3 > h4{
+    margin-bottom: 2px;
+  }
+  .PE-container .Sec-3 .input-div3 > textarea{
+    width: 95%;
+  }
+  .PE-container .Sec-3 .input-div3 .Desc{
+    min-height: 220px;
+  }
+  .PE-container .Sec-3 .input-div3 .Desc::-webkit-scrollbar {
+    width: 2px !important;
+  }
+  .PE-container .sec-4 > button{
+    width: 92%;
+    padding: 5px 0px;
+    font-size: 18px;
+  }
+  .PE-container .sec-4{
+    padding-bottom: 1rem;
+  }
+}
